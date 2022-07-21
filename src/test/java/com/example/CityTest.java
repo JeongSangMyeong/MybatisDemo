@@ -25,8 +25,8 @@ class CityTest {
 		try {
 			Connection conn = this.dataSource.getConnection();
 			log.info(conn.toString());
-		} catch (Exception e) {
-			log.warning(e.getMessage());
+		} catch (Exception ex) {
+			log.warning(ex.getMessage());
 		}
 	}
 
